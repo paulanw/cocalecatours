@@ -1,0 +1,17 @@
+# protect xmlrpc
+<Files xmlrpc.php>
+	Order Deny,Allow
+	Deny from all
+</Files>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /cocalecatours/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /cocalecatours/index.php [L]
+</IfModule>
+
+# END WordPress
