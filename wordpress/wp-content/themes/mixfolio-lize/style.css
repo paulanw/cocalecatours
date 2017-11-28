@@ -531,7 +531,7 @@ nav.nav {
     bottom: 10%;
     z-index:1;
 }
-#branding .frs-slideshow-container{
+#branding .frs-slideshow-container#header-homepjc{
     margin-top: -25px;
 }
 #branding .container {

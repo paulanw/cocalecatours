@@ -33,7 +33,7 @@ global $mixfolio_options;
                 <div id="branding-inner">
 
 <?php
-echo do_shortcode('[pjc_slideshow slide_type="header"]');
+echo do_shortcode('[pjc_slideshow slide_type="header-home"]');
 ?>
      
                     <div class="container">   
